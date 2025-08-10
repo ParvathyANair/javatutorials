@@ -7,6 +7,7 @@ public class Diagonal {
                 System.out.print("Enter the size of the square matrix (n x n): ");
         int n = scanner.nextInt();
 
+        
         int[][] matrix = new int[n][n];
         int sum = 0;
 
@@ -24,3 +25,4 @@ public class Diagonal {
                 System.out.println("Sum of diagonal elements: " + sum);
     }
 }
+
